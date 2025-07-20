@@ -22,7 +22,7 @@ Our values are rooted in empathy, innovation, collaboration, and clean design.
 | Name               | GitHub Handle                              | Contribution                                 |
 |--------------------|--------------------------------------------|----------------------------------------------|
 | Tejashri Panchal   | [@tejashri0](https://github.com/tejashri0) | Bio card, mission, rules, styling, structure |
-| Akshaya Monimaran  | `@github-username`                         | [Brief summary of their contribution]        |
+| Akshaya Monimaran  | akshayamonii                               | [Brief summary of their contribution]        |
 | Avani Yadav        | `@github-username`                         | [Brief summary of their contribution]        |
 
 >  Each team member made at least one Git commit to the repo.
