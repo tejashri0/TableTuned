@@ -1,12 +1,13 @@
-/* General page styling */
+/* === General Page Styling === */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9fbff;
     margin: 0;
     padding: 0;
+    color: #333;
 }
 
-/* Header section styling */
+/* === Header Section === */
 header {
     background: #333;
     color: #fff;
@@ -14,32 +15,35 @@ header {
     text-align: center;
 }
 
-/* Styling for team logo image */
+/* Team Logo */
 .team-logo {
-    width: 150px; /* Adjust the size as needed */
+    width: 150px;
     margin-top: 10px;
 }
 
-/* Menu button styling */
+/* === Navigation Menu Buttons in Header === */
 header nav {
     margin-top: 10px;
 }
 
-header nav button {
+header nav button,
+button {
     background: #007BFF;
     color: white;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
-    margin: 0 5px;
+    margin: 5px;
+    transition: background 0.3s ease;
 }
 
-header nav button:hover {
+header nav button:hover,
+button:hover {
     background: #0056b3;
 }
 
-/* Flex container for team bios and vision sections */
+/* === Container for All Content Cards === */
 .container {
     width: 80%;
     margin: 20px auto;
@@ -48,95 +52,68 @@ header nav button:hover {
     justify-content: space-between;
 }
 
-/* Card styling for individual team bios */
-.card {
+/* === Card Styling for Individual Team Members === */
+.card,
+.bio-card {
     background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 10px;
+    border-radius: 16px;
+    border: 2px solid #e3eaf0;
     padding: 20px;
-    flex: 1 1 calc(30% - 40px);
+    margin: 10px;
+    width: 300px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.08);
     text-align: center;
-    transition: transform 0.2s;
+    transition: transform 0.3s ease;
 }
 
-.card:hover {
-    transform: scale(1.05);
+.card:hover,
+.bio-card:hover {
+    background-color: #e6f0ff;
+    transform: scale(1.02);
 }
 
+/* === Headings === */
 h2 {
     margin: 0 0 10px;
 }
 
-/* Initially hide bio details */
+/* === Profile Image === */
+.profile-pic {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #66ccff;
+}
+
+/* === Moodboard Styling === */
+.moodboard {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.moodboard img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.moodboard a {
+    display: block;
+    font-size: 14px;
+    color: #0077cc;
+    text-decoration: none;
+}
+
+.moodboard a:hover {
+    text-decoration: underline;
+}
+
+/* === Optional: Hidden Bio Toggle Section (can be removed if unused) === */
 .bio {
     display: none;
     margin-top: 10px;
     color: #555;
-}
-
-/* Button styling */
-button {
-    background: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f9fbff;
-}
-
-.bio-card {
-  background-color: white;
-  border-radius: 16px;
-  border: 2px solid #e3eaf0;
-  padding: 20px;
-  width: 300px;
-  box-shadow: 4px 4px 10px rgba(0,0,0,0.08);
-  transition: all 0.3s ease;
-}
-
-.bio-card:hover {
-  background-color: #e6f0ff;
-  transform: scale(1.02);
-}
-
-.profile-pic {
-  width: 100%;
-  border-radius: 50%;
-  margin-bottom: 10px;
-  border: 3px solid #66ccff;
-}
-
-.moodboard {
-  margin-top: 10px;
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.moodboard img {
-  width: 40px;
-  height: 40px;
-  border-radius: 8px;
-}
-
-.moodboard a {
-  display: block;
-  font-size: 14px;
-  color: #0077cc;
-  text-decoration: none;
-}
-
-.moodboard a:hover {
-  text-decoration: underline;
-}
-
-
-button:hover {
-    background: #0056b3;
 }
