@@ -35,7 +35,7 @@ Our values are rooted in empathy, innovation, collaboration, and clean design.
 - CSS3
 - JavaScript (Basic DOM toggle)
 - Git & GitHub for version control
-- [Canva](https://www.canva.com/logo-maker/) for the team logo
+- [Canva](https://www.canva.com/logo-maker/) for the team logo and moodboards
 
 ---
 
