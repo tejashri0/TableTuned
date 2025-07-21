@@ -10,4 +10,4 @@
 | 6  | Team Member     | As a team member, I want to contribute to the GitHub repository.                                       | So that our project is collaborative and version-controlled.   |
 | 7  | Team Member     | As a team member, I want to help style the webpage using CSS.                                          | So that it reflects our shared design identity.                |
 | 8  | Team Member     | As a team member, I want to update my section easily in the future.                                    | So that I can keep my bio and moodboard up to date.            |
-| 9  | Visitor         | As a visitor, I want buttons to switch between bios and mission statement.                            | So that I can easily navigate the site.                        |
+| 9  | Visitor         | As a visitor, I want buttons to switch between bios and mission statement.                             | So that I can easily navigate the site.                        |
